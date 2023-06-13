@@ -7,6 +7,7 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Lato&family=Lobster&family=Open+Sans&family=Roboto:wght@300&display=swap" rel="stylesheet">
         <link rel="stylesheet" type="text/css" href="index.css">
+        <meta content="width=device-width, initial-scale=1" name="viewport" />
         <title>Rayan Ahamadi : Développeur Logiciel</title>
         <script src="index.js"></script>
     </head>
@@ -17,15 +18,45 @@
         <header>
 
             <div class="header-contents">
-            <div class="logo-desktop">
-                <img src="image-desktop/logo.svg" alt="logo">
-                <p>Développeur Logiciel</p>
+                <div class="logo-desktop">
+                    <img src="image-desktop/logo.svg" alt="logo">
+                    <p>Développeur Logiciel</p>
+                </div>
+
+                <div class="mobile-content">
+                    <div class="logo-mobile">
+                        <img src="image-mobile/logo-mobile.svg" alt="logo-mobile">
+                        <p>Développeur Logiciel</p>
+                    </div>
+                    <img src="image-mobile/bars-solid.svg" alt="menu" class="menu">
+                </div>
+            
+                <nav>
+                    <div class="nav">
+                        <a href="#compétences">Mes compétences</a>
+                        <a href="#cursus">Mon cursus scolaire</a>
+                        <a href="#projets">Mes projets réalisés</a> 
+                        <a href="#contact">Me contacter</a> 
+                        <a href="https://rayan-ahamadi.students-laplateforme.io/CV.html">Mon CV en ligne</a> 
+                    </div>
+                    <div class="rs">
+                        <a href="https://www.linkedin.com/in/rayan-ahamadi-98a30b26b/" target="_blank"><img src="image/linkedin.png" alt=""></a>
+                        <a href="https://github.com/rayan-ahamadi" target="_blank"><img src="image/github.png" alt=""></a>
+                        <a href="mailto:rayan.ahamadi@laplateforme.io" target="_blank"><img src="image/gmail.png" alt=""></a>
+                    </div>
+                </nav>
             </div>
-        
-            <nav>
+            <nav class="nav-mobile">
+                <div class="logo-xmark">
+                    <div id="logo">
+                        <img src="image-mobile/logo-menu.svg" alt="logo rayan">
+                        <p id="text-logo">Développeur Logiciel</p>
+                    </div>
+                    <img src="image-mobile/xmark-solid.svg" alt="fermé le menu" id="xmark">
+                </div>
                 <div class="nav">
-                    <a href="#compétences">Mes compétences</a>
-                    <a href="#cursus">Mon cursus scolaire</a>
+                    <a href="#compétences" >Mes compétences</a>
+                    <a href="#cursus" >Mon cursus scolaire</a>
                     <a href="#projets">Mes projets réalisés</a> 
                     <a href="#contact">Me contacter</a> 
                     <a href="https://rayan-ahamadi.students-laplateforme.io/CV.html">Mon CV en ligne</a> 
@@ -36,8 +67,13 @@
                     <a href="mailto:rayan.ahamadi@laplateforme.io" target="_blank"><img src="image/gmail.png" alt=""></a>
                 </div>
             </nav>
-            </div>
         </header>
+
+
+
+
+
+        
 
         <section>
             <article class="salut" id="salut">
@@ -130,6 +166,8 @@
                         <p>C'est le projet que vous visitiez actuellement !<br>
                         Ce portfolio est un projet que j'ai réalisé en solo en étant à l'école La Plateforme. </p>
                     </div>
+                    <br>
+                    <br>
                     <br>
                     <p>Vous pouvez visitez mon<a href="https://github.com/rayan-ahamadi" class="projet-git">GITHUB</a> pour voir plus de projets !!!</p>
                     <br>

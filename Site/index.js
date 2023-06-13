@@ -19,3 +19,24 @@ function bellepierre() {
     title.innerHTML = "Le BAC PRO SN : Lycée Le Chatelier. 2018-2021";
   }
 
+  document.addEventListener('DOMContentLoaded', function() {
+    const menuImage = document.querySelector('.header-contents .menu');
+    const navMobile = document.querySelector('header .nav-mobile');
+    const xmark = document.querySelector('.nav-mobile #xmark');
+    const a = document.querySelector('.nav-mobile .nav')
+
+    menuImage.addEventListener('click', function() {
+      navMobile.style.marginLeft = '0%';
+    });
+
+    xmark.addEventListener('click', function() {
+      navMobile.style.marginLeft ='110%';
+    });
+
+    a.addEventListener('click', function() {
+      navMobile.style.marginLeft ='0%';
+    });
+
+
+
+  });
