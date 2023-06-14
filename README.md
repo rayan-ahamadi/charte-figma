@@ -1,2 +1,2 @@
 # charte-figma
-Charte graphique pour le portfolio
+Ce dépôt contient la charte graphique pour le portfolio et le code source.
