@@ -15,7 +15,7 @@
 header {
     background-color: #514d7e;
     width: 253px;
-    height: 3468px;
+    height: 3515px;
     display: flex;
     align-items: flex-start;
     justify-content:flex-start;
@@ -35,6 +35,10 @@ header {
     bottom:0px;
     padding-bottom: 0px;
     
+}
+
+.header-contents nav{
+    margin-top:-300px
 }
 
 
@@ -210,7 +214,8 @@ article p{
 }
 
 .compétences {
-    background: conic-gradient(#f9876f, #D95886);
+    background: -webkit-linear-gradient(#f9876f, #D95886);
+    /* background: conic-gradient(#f9876f, #D95886); */
     margin-top:-67px;
     height: auto;
 }
@@ -273,7 +278,8 @@ article p{
 
 
 .projets {
-    background: -webkit-linear-gradient(#f9876f, #D95886);
+    background: conic-gradient(#f9876f, #D95886);
+    /* background: -webkit-linear-gradient(#f9876f, #D95886); */
     margin-top:-67px;
     height: auto;
 }
@@ -283,7 +289,7 @@ article p{
     flex-direction: column;
 }
 
-.descri-projet img{
+.descri-projet a img{
     height: 180px;
     float: left;
 }
@@ -318,7 +324,7 @@ article p{
 }
 
 .contact {
-    background: -webkit-linear-gradient(#D95886,#f9876f );
+    background: -webkit-linear-gradient(#f9876f ,#D95886);
     margin-top:-67px;
     height: auto;
 }
