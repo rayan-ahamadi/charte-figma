@@ -6,80 +6,52 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Lato&family=Lobster&family=Open+Sans&family=Roboto:wght@300&display=swap" rel="stylesheet">
-        <link rel="stylesheet" type="text/css" href="index.css">
+        <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans&family=VT323&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="index2.css">
         <meta content="width=device-width, initial-scale=1" name="viewport" />
-        <title>Rayan Ahamadi : Développeur Logiciel</title>
-        <script src="index.js"></script>
+        <title>Rayan Ahamadi : Développeur Informatique</title>
+        
     </head>
 
     <body>
 
-        <div class="content">
         <header>
 
-            <div class="header-contents">
-                <div class="logo-desktop">
-                    <img src="image-desktop/logo.svg" alt="logo">
-                    <p>Développeur Logiciel</p>
+            <nav>
+                
+                <div class="navbar">
+                    <img src="image-desktop/logo.svg" alt="logo"  class="logo-desktop" >
+                    <img src="image/bars-solid.svg" alt="menu" class="button-menu">
                 </div>
 
-                <div class="mobile-content">
-                    <div class="logo-mobile">
-                        <img src="image-mobile/logo-mobile.svg" alt="logo-mobile">
-                        <p>Développeur Logiciel</p>
+                <!-- s'affiche quand on clique sur le menu -->
+
+                <div class="menu">
+                    <div class="nav" id="nav-js">
+                        <a href="#compétences"><p>Mes compétences</p></a>
+                        <a href="#cursus"><p>Mon cursus scolaire</p></a>
+                        <a href="#projets"><p>Mes projets réalisés</p></a> 
+                        <a href="#contact"><p>Me contacter</p></a> 
+                        <a href="https://rayan-ahamadi.students-laplateforme.io/CV.html"><p>Mon CV en ligne</p></a> 
                     </div>
-                    <img src="image-mobile/bars-solid.svg" alt="menu" class="menu">
-                </div>
-            
-                <nav>
-                    <div class="nav">
-                        <a href="#compétences">Mes compétences</a>
-                        <a href="#cursus">Mon cursus scolaire</a>
-                        <a href="#projets">Mes projets réalisés</a> 
-                        <a href="#contact">Me contacter</a> 
-                        <a href="https://rayan-ahamadi.students-laplateforme.io/CV.html">Mon CV en ligne</a> 
-                    </div>
+
                     <div class="rs">
                         <a href="https://www.linkedin.com/in/rayan-ahamadi-98a30b26b/" target="_blank"><img src="image/linkedin.png" alt=""></a>
                         <a href="https://github.com/rayan-ahamadi" target="_blank"><img src="image/github.png" alt=""></a>
                         <a href="mailto:rayan.ahamadi@laplateforme.io" target="_blank"><img src="image/gmail.png" alt=""></a>
                     </div>
-                </nav>
-            </div>
-            <nav class="nav-mobile">
-                <div class="logo-xmark">
-                    <div id="logo">
-                        <img src="image-mobile/logo-menu.svg" alt="logo rayan">
-                        <p id="text-logo">Développeur Logiciel</p>
-                    </div>
-                    <img src="image-mobile/xmark-solid.svg" alt="fermé le menu" id="xmark">
                 </div>
-                <div class="nav">
-                    <a href="#compétences" >Mes compétences</a>
-                    <a href="#cursus" >Mon cursus scolaire</a>
-                    <a href="#projets">Mes projets réalisés</a> 
-                    <a href="#contact">Me contacter</a> 
-                    <a href="https://rayan-ahamadi.students-laplateforme.io/CV.html">Mon CV en ligne</a> 
-                </div>
-                <div class="rs">
-                    <a href="https://www.linkedin.com/in/rayan-ahamadi-98a30b26b/" target="_blank"><img src="image/linkedin.png" alt=""></a>
-                    <a href="https://github.com/rayan-ahamadi" target="_blank"><img src="image/github.png" alt=""></a>
-                    <a href="mailto:rayan.ahamadi@laplateforme.io" target="_blank"><img src="image/gmail.png" alt=""></a>
-                </div>
+                <!-- -->
+
             </nav>
-        </header>
+           
+            
+        </header>       
 
-
-
-
-
-        
-
-        <section>
+        <main>
             <article class="salut" id="salut">
                 <h1>Salut, je suis <div class="rayan">Rayan</div>
-                Développeur logiciel</h1>
-                <br>
+                Développeur Informatique</h1>
                 <a href="#presentation">Présentation</a>
             </article>
             <article class="presentation" id="presentation">
@@ -90,37 +62,41 @@
             <article class="projets" id="projets">
                 <h2>Projets</h2>
                 
-                <div class="descri-projet">
+                <div class="slideshow-container">
+
+                    <div class="mySlides fade">
+                      <div class="numbertext">1 / 3</div>
+                      <img src="image/le-pendu.png" style="width:100%">
+                      <div class="text">Le Pendu</div>
+                    </div>
                     
-                    <h3>myDiscord : Python et SQL</h3>
-                    <div class="projet1">
-                        <a href="https://github.com/tom-fhal/myDiscord"><img src="image/myDiscord.png" href="https://github.com/tom-fhal/myDiscord" alt="myDiscord"></a>
-                        <p>myDiscord est un projet que j'ai fais en duo à l'école La Plateforme. <br>
-                        Il consistait à faire une application de messagerie textuelle entre deux personne à distance en utilisant le système de socket <br>
-                        Ce projet m'a enrichie sur le plan technique comme mental, car cela m'a appris à ne pas baisser les bras dans la difficulté d'un projet comme 
-                    celui-là.</p>
+                    <div class="mySlides fade">
+                      <div class="numbertext">2 / 3</div>
+                      <img src="image/myDiscord.png" style="width:100%">
+                      <div class="text">MyDiscord</div>
+                    </div>
+                    
+                    <div class="mySlides fade">
+                      <div class="numbertext">3 / 3</div>
+                      <img src="image/portfolio.png" style="width:100%">
+                      <div class="text">Le Portfolio</div>
+                    </div>
+                    
+                    <div class="buttonSlides">
+                        <a class="prev" onclick="plusSlides(-1)">❮</a>
+                        <a class="next" onclick="plusSlides(1)">❯</a>
                     </div>
 
-                    <h3>Le Pendu : Python et PYgame</h3>
-                    <div class="projet2">
-                        <a href="https://github.com/rayan-ahamadi/pendu"><img src="image/le-pendu.png" alt="le-pendu"></a>
-                        <p>Le prendu est un projet que j'ai fais en solo à l'école La Plateforme <br>
-                        C'est un jeu de pendu classique, on y a tous joué depuis l'enfance. <br>
-                        Et c'est en fait le premier jeu que j'ai réalisé en codant. <br> Etant passionné de jeux-vidéos,  je pense en réalisé d'autres quand j'en aurais le temps.</p>
-                    </div>
-
-                    <h3>Le portfolio : HTML, CSS et un peu de Javascript</h3>
-                    <div class="projet3">
-                        <a href="https://github.com/rayan-ahamadi/charte-figma"><img src="image/portfolio.png" alt="portfolio"></a>
-                        <p>C'est le projet que vous visitiez actuellement !<br>
-                        Ce portfolio est un projet que j'ai réalisé en solo en étant à l'école La Plateforme. </p>
-                    </div>
-                    <br>
-                    <br>
-                    <br>
-                    <p>Vous pouvez visitez mon<a href="https://github.com/rayan-ahamadi" class="projet-git">GITHUB</a> pour voir plus de projets !!!</p>
-                    <br>
                 </div>
+                    <br>
+                    
+                    <div style="text-align:center;width: auto;">
+                      <span class="dot" onclick="currentSlide(1)"></span> 
+                      <span class="dot" onclick="currentSlide(2)"></span> 
+                      <span class="dot" onclick="currentSlide(3)"></span> 
+                    </div>
+
+                    <p class="descri-projet" id="descri-projet"></p>
 
             </article>
 
@@ -129,25 +105,31 @@
 
                 <p>Durant mes différents cursus en informatique, j'ai développé plusieurs connaissances :</p>
 
-                <label for="python">Python :</label><br>
+                <label for="python"><img src="image/python.png" alt="python"> Python</label><br>
                 <progress id="python" max="100" value="75"> 75% </progress>
                 <br>
-                <label for="java">Java :</label><br>
+
+                <label for="java"><img src="image/Java.png" alt="java"> Java</label><br>
                 <progress id="java" max="100" value="50"> 50% </progress>
                 <br>
-                <label for="sql">SQL :</label><br>
+
+                <label for="spring"><img src="image/spring.png" alt="spring boot"> Spring</label><br>
+                <progress id="spring" max="100" value="45"> 45% </progress>
+                <br>
+
+                <label for="sql"><img src="image/SQL.png" alt="SQL"> SQL</label><br>
                 <progress id="sql" max="100" value="75"> 75% </progress>
                 <br>
-                <label for="html">HTML :</label><br>
+
+                <label for="html"><img src="image/HTML.png" alt="HTML"> HTML</label><br>
                 <progress id="html" max="100" value="80"> 80% </progress>
                 <br>
-                <label for="css">CSS :</label><br>
+
+                <label for="css"><img src="image/CSS.png" alt="CSS"> CSS</label><br>
                 <progress id="css" max="100" value="75"> 75% </progress>
                 <br>
-                <label for="arduino">Arduino :</label><br>
-                <progress id="arduino" max="100" value="60"> 60% </progress>
-                <br>
-                <label for="os">OS : Windows et Linux :</label><br>
+
+                <label for="os"><img src="image/OS.png" alt="Système d'exploitation"> Système d'exploitations</label><br>
                 <progress id="os" max="100" value="90"> 90% </progress>
 
             </article>
@@ -158,9 +140,9 @@
 
                 <div class="descri-cursus">
                     <div class="button">
-                        <a href="#" onclick="plateforme(); return false;">École La Plateforme, Marseille</a>
-                        <a href="#" onclick="bellepierre(); return false;">Lycée Bellepierre, La Réunion</a>
-                        <a href="#" onclick="chatelier(); return false;">Lycée Le Chatelier, Marseille</a>
+                        <a href="#" onclick="plateforme(); return false;"><p>École La Plateforme, Marseille</p></a>
+                        <a href="#" onclick="bellepierre(); return false;"><p>Lycée Bellepierre, La Réunion</p></a>
+                        <a href="#" onclick="chatelier(); return false;"><p>Lycée Le Chatelier, Marseille</p></a>
                     </div>
                     <div class="texte-curs">
                         <h3 id="title-cursus">Le Bachelor IT : La Plateforme. 2022 - Maintenant</h3>
@@ -168,9 +150,10 @@
                             formation gratuite en informatique : Le Bachelor IT à La Plateforme. <br>
                             La première année se fait à 100% en présentiel. On apprend les bases de l'informatique
                             avec une pédagogie en mode projet. Qui nous permet d'apprendre en allant chercher les informations 
-                            sois-même. 
+                            sois-même. </p>
+                        
                     </div>
-                    </p>
+                    <a href="https://www.laplateforme.io/" target="_blank" id="lien-ecole"><img src="image/laplateforme.jpg" alt="école la plateforme" id="image-cursus"></a>
                 </div>
 
                 <br>
@@ -179,25 +162,15 @@
 
             <article class="contact" id="contact">
                 <h2>Contactez-moi !!!</h2>
-                <p>Vous pouvez me contactez, je suis disponible pour toute demande d'information complémentaires ou bien pour une demande de collaboration.</p>
+                <p>Vous pouvez me contactez, je suis disponible pour toute demande d'information complémentaires ou bien pour une demande de collaboration !!!!</p>
 
-                <form action="mailto:rayan.ahamadi@laplateforme.io" method="post" enctype="text/plain">
-                    <label for="name">Nom :</label><br>
-                    <input type="text" id="name" name="name" required><br>
-                
-                    <label for="email">E-mail :</label><br>
-                    <input type="email" id="email" name="email" required><br>
-                
-                    <label for="message">Message :</label><br>
-                    <textarea id="message" name="message" required></textarea><br>
-                
-                    <button type="submit">Envoyer</button>
-                </form>
+                <a href="mailto:rayanahamadi@laplateforme.io"><img src="image/gmail.png" alt="rayan.ahamadi@laplateforme.io"> rayan.ahamadi@laplateforme.io </a><br>
+                <a href="mailto:rayanahamadi13@gmail.com"><img src="image/gmail.png" alt="rayanahamadi13@gmail.com"> rayanahamadi13@gmail.com</a>
 
 
             </article>
-        </section>
-        </div>
+        </main>
+     
 
         <footer>
             <div class="logo-secondaire">
@@ -208,8 +181,10 @@
                 <a href="https://github.com/rayan-ahamadi"><img src="image/github.png" alt="github"></a>
                 <a href="mailto:rayan.ahamadi@laplateforme.io"><img src="image/gmail.png" alt="gmail"></a>
             </div>
-        </footer>
+        </footer> 
     </body>
+
+    <script src="index.js"></script>
 </html>
 
 
